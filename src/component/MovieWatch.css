@@ -1,0 +1,17 @@
+.watchMv {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.Video {
+  margin-top: 20px;
+}
+
+.up {
+  background-color: black;
+}
+.up {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,99 @@
+/* .background_header {
+    image-rendering: inherit;
+    
+} */
+
+.row.movie-header {
+  position: fixed !important;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  top: 0;
+  margin-left: 0;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  /* animation: change infinite 1s; */
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.navbar.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* @keyframes change {
+  from {
+    background-color: rgba(175, 175, 175, 0.9);
+  }
+  to {
+    background-color: rgba(175, 175, 175, 0.9);
+  }
+} */
+
+#nav-header {
+  margin: 0;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+}
+
+#nav > li {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.subnav > li {
+  display: block;
+}
+#nav .subnav {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 0px;
+}
+
+#nav > li > a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+.subnav > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+#movie-header_name > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--main-color);
+}
+
+/* .subnav li:hover a ,
+#nav > li:hover >a{
+    background-color: whitesmoke;
+    color: black;
+} */
+
+#nav li:hover > .subnav {
+  display: block;
+  /* background-color: white;*/
+  color: black;
+}
+.subnav {
+  z-index: 100;
+}
+
+.title_web {
+  cursor: pointer;
+}

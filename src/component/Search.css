@@ -1,0 +1,15 @@
+.form-control {
+  position: relative;
+  padding-right: 24px;
+}
+
+.icon-search {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  font-size: 1.4rem;
+  color: #4a4a4a;
+  margin: 0 16px;
+  background-color: black;
+  z-index: 1;
+}

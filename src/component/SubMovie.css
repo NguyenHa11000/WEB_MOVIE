@@ -1,0 +1,31 @@
+.imgsub {
+  display: block;
+  max-width: 200px;
+  max-height: 150px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.submovie_name {
+  color: white;
+}
+
+.submovie {
+  display: flex;
+  padding: 16px;
+  /* margin-bottom: 24px; */
+  /* border: 1px solid #d3d3d3; */
+  border-bottom: 1px solid #d3d3d3;
+  align-items: center;
+  text-align: start;
+}
+
+.list_submovies {
+  margin-top: 24px;
+  background-color: rgb(45, 45, 45);
+}
+
+.imgsub {
+  cursor: pointer;
+}
