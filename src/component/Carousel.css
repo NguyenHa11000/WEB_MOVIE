@@ -1,0 +1,33 @@
+.test {
+  margin-top: -60px;
+  margin-bottom: 20px;
+}
+.slide_test {
+  padding: 0;
+}
+.imagee {
+  display: block;
+  box-sizing: border-box;
+
+  /* max-height: 280px; */
+  /* height: auto;
+  width: auto; */
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  padding: 0;
+}
+
+.d-lex:hover .overlayy {
+  opacity: 1;
+}
+
+.slick-prev {
+  left: 0;
+  z-index: 2;
+}
+
+.slick-next {
+  right: 0;
+  z-index: 0;
+}
