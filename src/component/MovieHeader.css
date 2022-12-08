@@ -102,8 +102,54 @@
 
 .subnav {
   z-index: 100;
+  border-radius: 4px;
 }
 
 .title_web {
   cursor: pointer;
+}
+
+.movie-header_account {
+  color: white;
+}
+
+.account_name {
+  float: right;
+  position: relative;
+  cursor: pointer;
+}
+
+.account-list {
+  cursor: pointer;
+  display: none;
+  top: 32px;
+  right: 0;
+  padding-left: 0px;
+  position: absolute;
+  background-color: white;
+  color: black;
+  /* border: 1px solid black; */
+  border-radius: 4px;
+  animation: headerNotiGrowth ease-in 0.5s;
+}
+
+.account-list::before {
+  content: "";
+  border-width: 10px 14px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+  position: absolute;
+  right: 4px;
+  top: -18px;
+}
+
+.account-list li {
+  display: block;
+  padding: 16px 32px;
+  width: 10vw;
+  font-size: 0.4 rem;
+}
+
+.account_name:hover .account-list {
+  display: block;
 }

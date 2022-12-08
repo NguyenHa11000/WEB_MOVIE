@@ -10,7 +10,7 @@ import Result from "./component/Result";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Router>
         <Layout>
           <Routes>
